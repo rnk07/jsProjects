@@ -21,8 +21,6 @@ function calculateTip() {
     const finalTipAmt = (bill * tip) / 100;
     const total = bill + finalTipAmt;
 
-    console.log("Tip:", finalTipAmt);
-    console.log("Total:", total);
 
     totalPlaceholder.textContent = total.toFixed(2)
 
