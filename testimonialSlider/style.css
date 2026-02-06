@@ -6,25 +6,57 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border: 2px solid red;
 }
 
 
 .container {
-    height: 150px;
-    width: 150px;
-    border: 2px solid black;
+    height: 100px;
+    max-width: 500px;
+    min-width: 350px;
+
+    font-family:cursive ;
+    background-color: slateblue;
+    color: white;
+    border-radius: 8px;
+    /* border: 2px solid black; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+    box-shadow: 0 4px 8px rgb(65, 55, 131) ;
+    
+
+    padding: 70px 20px;
+
 }
 
 
-.box1 {
-    height: 50px;
-    width: 50px;
-    border: 2px solid red;
-    font-size: 50px;
-    color: black;
+
+
+img {
+    
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+
+    position: absolute;
+    top: -50px;
+
+
+object-fit:cover;
+
+
+
+
 }
+
+p,span {
+    width: 100%;
+}
+
